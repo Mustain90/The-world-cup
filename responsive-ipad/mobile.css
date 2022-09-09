@@ -1,0 +1,183 @@
+/* Medium devices & small device (landscape tablets, 768px and up) */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Sarabun:ital,wght@0,400;1,300&display=swap');
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 480vh;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    .top-header {
+        width: 613px;
+        height: 356px;
+        margin-left: 60px;
+    }
+
+    .header-text h1 {
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+    }
+
+    .continer {
+        display: flex;
+        flex-direction: column;
+
+
+        width: 80%;
+        padding-left: 53px;
+        margin-top: 40px;
+    }
+
+    .blog-btn {
+        background: none;
+        display: flex;
+        margin-left: 3px;
+        padding-left: 0px;
+        width: 0px;
+        height: 0px;
+
+    }
+
+    .grid-system {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0px;
+        grid-column-gap: 10px;
+    }
+
+
+
+    .home-btn h5 {
+
+        margin-bottom: 91px;
+        height: 21px;
+        width: 182px;
+        gap: 10px;
+        margin-right: 8px;
+        padding: 12px;
+
+    }
+
+    .plyer-information {
+        width: 100%;
+        gap: 30px;
+    }
+
+
+
+    .plyer {
+        width: 100%;
+        height: 180px;
+    }
+
+    .tran-btn p {
+        font-size: 18px;
+    }
+
+
+    .footer-division {
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .footer-teg {
+        margin-left: 0px;
+        width: 100px, auto;
+
+
+    }
+
+    .footer-text {
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 0px;
+        gap: 5px;
+    }
+
+}
+
+/*small Mobile device */
+@media screen and (max-width:320px) {
+    .main {
+        width: 100%;
+        height: 875vh;
+
+    }
+
+    .top-header {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0px;
+        height: 670px;
+
+    }
+
+    .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .header-text p {
+        font-size: 17px;
+    }
+
+    .top-header img {
+        width: 90%;
+    }
+
+    .blog-btn {
+        flex-direction: column;
+        width: 280px;
+        height: 342px;
+    }
+
+    .home-btn h5 {
+        margin: 10px;
+    }
+
+    .continer {
+        margin-top: -22px;
+        padding-left: 3px;
+        width: 90%;
+    }
+
+    .grid-system {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+
+
+
+    .heading h3 {
+        margin: 10px;
+        font-size: 1.6rem;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        margin: 10px;
+        gap: 0px;
+    }
+
+    .footer-text p {
+        margin: 10px;
+        font-size: 1.1rem;
+    }
+
+    .footer-teg {
+        width: 100%;
+        height: 380px;
+    }
+}

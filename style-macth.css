@@ -1,0 +1,235 @@
+/* common styles */
+/* google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Sarabun:ital,wght@0,400;1,300&display=swap');
+
+.body {}
+
+.main {
+    background-color: #e0d5d5;
+    margin-left: 100px;
+    width: 1076px;
+    height: 900px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+
+
+.top-header {
+    display: flex;
+    background-color: rgb(10, 10, 19);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 870px;
+    height: 390px;
+
+}
+
+
+
+
+
+.banner-box img {
+
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-right: 30px;
+
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 10px;
+    line-height: 40px;
+    margin: 15px;
+
+
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 40px;
+
+
+
+}
+
+.live-btn {
+    padding-bottom: 30px;
+}
+
+.live-btn a {
+
+    text-decoration: none;
+    background-color: #eb3535;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.fa-solid {
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.live-btn h4 {
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+
+/* Home-Button */
+.blog-btn {
+
+
+    background-color: #0a0606;
+    width: 212px;
+    height: 212px;
+    align-items: center;
+    border-radius: 15px;
+
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.home-btn a {
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0f0f0f;
+
+}
+
+.home-btn h5 {
+
+    margin-left: 10px;
+    border-radius: 6px;
+    width: 176px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(243, 245, 244);
+    padding: 8px;
+
+}
+
+.home-btn h6 {
+    background-color: #eb3535;
+    padding: 8px;
+    border-radius: 6px;
+
+}
+
+.home-btn h6 a {
+    color: rgb(243, 245, 244);
+}
+
+
+
+/* continer */
+
+
+
+.continer {
+
+    display: flex;
+    height: 467px;
+    width: 654px;
+    padding-left: 110px;
+    margin-top: 20px;
+}
+
+/* all-macth */
+.grid-system {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+.all-macth {
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+.macth-info {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+.macth-info img {}
+
+.all-macth p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* footer-- */
+
+.footer-division {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.footer-teg {
+    width: 1076px;
+
+    height: 345px;
+    background: black;
+    margin-top: 10px;
+
+}
+
+.heading h3 {
+    color: #e0d5d5;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line hr {
+    align-content: center;
+    width: 80%;
+    color: rgb(218, 216, 216);
+
+}
+
+.footer-text {
+    color: #e0d5d5;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 180px;
+
+}
+
+
+.fa-brands {
+    padding-left: 20px;
+    font-size: 25px;
+    color: rgb(214, 215, 218);
+
+}
